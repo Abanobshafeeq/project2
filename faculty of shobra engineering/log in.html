@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sign in</title>
+  
+  <link rel="stylesheet" href="css/sign up.css ">
+  <link rel="shortcut icon" href="img/SHOBRA.jpg">
+  
+    <script src="java.js"></script>
+
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="img/banha.jpg" alt="" class="ba">
+    <button id="main"><a href="main.html">الصفحة الرئسية</a></button>
+    <img src="img/SHOBRA.jpg" alt="" class="sh">
+  </div>
+
+
+
+  
+    <div class="container">
+      <form action="" method="get">
+        <h1>Sign in</h1>
+        
+        <label for="usrname">Username</label>
+        <input type="text" id="usrname" name="usrname" required>
+
+        <label for="psw">Password</label>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+          required>
+
+        <input type="submit" value="Submit" id="buttonaba">
+      </form>
+    </div>
+  
+
+  <div id="message">
+    <h3>Password must contain the following:</h3>
+    <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+    <p id="capital" class="invalid">A <b>First letter must be capital </b> </p>
+    <p id="number" class="invalid">A <b>number</b></p>
+    <p id="special" class="invalid">A <b>one special character</b></p>
+    <p id="space" class="valid"> the <b> password does not contain a space</b></p>
+
+    <p id="length" class="invalid">Equal  <b>8 characters</b></p>
+  </div>
+
+  <script src="java.js"></script>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <footer id="footer">
+    <div class="container">
+      <div class="up-side">
+        <div class="contact">
+          <ul>
+            <li>تليفون: 0842154835</li>
+            <li>فاكس: 0842154835</li>
+            <li>البريد الإلكترونى</li>
+            <li>coinf@Shobra.edu.eg</li>
+          </ul>
+        </div>
+        <div class="gif">
+          <img src="img/SHOBRA.jpg" alt="Shobra Engineering" height="73px">
+        </div>
+        <div class="about">
+          <ul>
+            <li>نشأة الكلية</li>
+            <li>شعار الكلية</li>
+            <li>رسالة الكلية</li>
+            <li>التعريف بالكلية</li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align: center;">جميع الحقوق محفوظة الى هندسة شبرا  &copy; 2022</p>
+    </div>
+  </footer>
+</body>
+
+</html>

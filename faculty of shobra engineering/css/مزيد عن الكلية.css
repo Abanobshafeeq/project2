@@ -1,0 +1,158 @@
+footer {
+    width: 100%;
+    padding: 15px 0;
+    color: white;
+}
+
+footer .container .up-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container {
+    background-color: #252525;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+footer .container .up-side li {
+    border-bottom: 1px solid gray;
+}
+
+.ba {
+    width: 150px;
+    height: 100px;
+}
+
+.sh {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+
+button {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 2px 10px rgb(241, 20, 20);
+    position: absolute;
+    right: 45%;
+    border-radius: 20px;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+button:hover {
+    background-color: rgb(151, 1, 1);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+#aaaa {
+    background-image: url(book1.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* padding-top: 140px;  */
+    height: auto;
+    direction: rtl;
+    position: relative;
+
+    font-family: 'Readex Pro', sans-serif;
+
+
+    color: rgb(0, 0, 0);
+}
+
+#aaaa h5,#aaaa ul {
+    direction: rtl;
+    font-size: 2rem;
+
+    padding-left: 50px;
+    padding-right: 50px; 
+
+    font-family: 'Readex Pro', sans-serif;
+    height: 14%;
+    margin: 2%;
+    padding: 5% 5% 5% 5%;
+    color: rgb(0, 0, 0);
+
+
+}
+#aaaa h2{
+    direction: rtl;
+    font-size: 2.5rem;
+
+
+     
+    padding-right: 150px; 
+
+    font-family: 'Readex Pro', sans-serif;
+}
+#aaaa h1{
+    direction: rtl;
+    font-size: 2.5rem;
+
+
+     
+    padding-left: 50px;
+    padding-right: 50px; 
+
+    font-family: 'Readex Pro', sans-serif;
+}
+
+#img3med {
+    position: absolute;
+    left: 0;
+    padding-left: 50px;
+    padding-right: 50px; 
+  
+    width: 200px;
+    height: 200px
+    
+}
+.img3med {
+    position: absolute;
+    left: 0;
+    padding-left: 50px;
+    padding-right: 50px; 
+  
+    width: 200px;
+    height: 200px
+    
+}
+#heading{
+    position: absolute;
+    right: 0;
+}
+#divi{
+    position: relative;
+}
+.shobra{
+    width: 250px;
+    height: 200px;
+}
+.rod{
+    width: 250px;
+    height: 200px;
+}
+table{
+    border: 5px solid;
+}
+table td {
+   
+    padding: 5px;
+    background-color: rgb(213, 211, 211);
+}
+caption{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
